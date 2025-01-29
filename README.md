@@ -12,3 +12,12 @@
 - The program demonstrates basic operations in C and their equivalent implementation in RISC-V assembly language.  
 
 ---
+Task 2:Task is to refer to C based and RISCV based lab videos and execute the task of compiling the C code using gcc and riscv compiler simulator
+
+Debugging with SPIKE: Comparing -O1 and -Ofast Optimizations
+
+-O1: A moderate optimization for balanced performance.
+
+-Ofast: A high-speed optimization that prioritizes performance over strict standards
+
+
