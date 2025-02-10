@@ -12,7 +12,7 @@
 - The program demonstrates basic operations in C and their equivalent implementation in RISC-V assembly language.  
 
 ---
-Task 2:Task is to refer to C based and RISCV based lab videos and execute the task of compiling the C code using gcc and riscv compiler simulator
+## Task 2:Task is to refer to C based and RISCV based lab videos and execute the task of compiling the C code using gcc and riscv compiler simulator
 
 Debugging with SPIKE: Comparing -O1 and -Ofast Optimizations
 
@@ -21,7 +21,7 @@ Debugging with SPIKE: Comparing -O1 and -Ofast Optimizations
 -Ofast: A high-speed optimization that prioritizes performance over strict standards
 
 
-#task_3 Review the RISC-V software documentation to understand the R, I, S, B, U, and J instruction types.
+## Task 3: Review the RISC-V software documentation to understand the R, I, S, B, U, and J instruction types.
 
 RISC-V Instruction Types for the Given Code
 Instruction Types
