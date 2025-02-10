@@ -19,6 +19,9 @@ Debugging with SPIKE: Comparing -O1 and -Ofast Optimizations
 -O1: A moderate optimization for balanced performance.
 
 -Ofast: A high-speed optimization that prioritizes performance over strict standards
+add.c file
+![Description](https://raw.githubusercontent.com/pavanrathod1/samsung-riskcv/main/images/your-image.jpg)
+
 
 
 ## Task 3: Review the RISC-V software documentation to understand the R, I, S, B, U, and J instruction types.
