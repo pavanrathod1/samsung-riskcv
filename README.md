@@ -29,6 +29,13 @@ add.c file
 
 
 
+Commands:
+
+riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum.o sum.c
+riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum.o sum.c
+
+
+
 
 
 ![Description](https://github.com/pavanrathod1/samsung-riskcv/blob/main/images/402639324-905f4204-0931-4323-8e43-253e8a263ad12.jpg)
