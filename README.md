@@ -52,4 +52,27 @@ Similar to J-type but used for function calls.
 Example: The main() function or calls to printf and scanf might involve UJ-type instructions like JAL (jump and link).
 This classification provides a detailed mapping of the instruction types based on the given C code.
 
+## Task4:By making use of RISCV Core: Verilog Netlist and Testbench, perform an experiment of Functional Simulation and observe the waveforms
+
+4. FUNCTIONAL SIMULATION
+
+4.1 About iverilog and gtkwave
+
+Icarus Verilog is an implementation of the Verilog hardware description language.
+GTKWave is a fully featured GTK+ v1. 2 based wave viewer for Unix and Win32 which reads Ver Structural Verilog Compiler generated AET files as well as standard Verilog VCD/EVCD files and allows their viewing.
+4.2 Installing iverilog and gtkwave
+For Ubuntu
+Open your terminal and type the following to install iverilog and GTKWave
+
+$   sudo apt get update
+$   sudo apt get install iverilog gtkwave
+To clone the repository and download the netlist files for simulation , enter the following commands in your terminal.
+$ git clone https://github.com/vinayrayapati/iiitb_rv32i
+$ cd iiitb_rv32i
+To simulate and run the verilog code , enter the following commands in your terminal.
+$ iverilog -o iiitb_rv32i iiitb_rv32i.v iiitb_rv32i_tb.v
+$ ./iiitb_rv32i
+To see the output waveform in gtkwave, enter the following commands in your terminal.
+$ gtkwave iiitb_rv32i.vcd
+
 
