@@ -21,28 +21,6 @@ Debugging with SPIKE: Comparing -O1 and -Ofast Optimizations
 -Ofast: A high-speed optimization that prioritizes performance over strict standards
 
 
-add.c file
-
-
-![Description](https://github.com/pavanrathod1/samsung-riskcv/blob/main/images/402558033-8989da87-e34d-4330-af71-683b478b96421.jpg)
-
-
-
-
-Commands:
-
-riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum.o sum.c
-
-
-riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum.o sum.c
-
-
-
-
-
-![Description](https://github.com/pavanrathod1/samsung-riskcv/blob/main/images/402639324-905f4204-0931-4323-8e43-253e8a263ad12.jpg)
-
-
 
 ## Task 3: Review the RISC-V software documentation to understand the R, I, S, B, U, and J instruction types.
 
