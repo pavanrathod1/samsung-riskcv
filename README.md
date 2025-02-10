@@ -52,27 +52,50 @@ Similar to J-type but used for function calls.
 Example: The main() function or calls to printf and scanf might involve UJ-type instructions like JAL (jump and link).
 This classification provides a detailed mapping of the instruction types based on the given C code.
 
-## Task4:By making use of RISCV Core: Verilog Netlist and Testbench, perform an experiment of Functional Simulation and observe the waveforms
+## Task 4:By making use of RISCV Core: Verilog Netlist and Testbench, perform an experiment of Functional Simulation and observe the waveforms
 
-4. FUNCTIONAL SIMULATION
+Project Overview
 
-4.1 About iverilog and gtkwave
+This project performs a functional simulation of a RISC-V Core using a Verilog netlist and a testbench.
+The goal is to verify the functional correctness of the core by analyzing the simulation results.
+Prerequisites
 
-Icarus Verilog is an implementation of the Verilog hardware description language.
-GTKWave is a fully featured GTK+ v1. 2 based wave viewer for Unix and Win32 which reads Ver Structural Verilog Compiler generated AET files as well as standard Verilog VCD/EVCD files and allows their viewing.
-4.2 Installing iverilog and gtkwave
-For Ubuntu
-Open your terminal and type the following to install iverilog and GTKWave
+Install the required simulation tools:
+Icarus Verilog (iverilog) – To run the Verilog simulation.
+GTKWave – To visualize the waveform outputs.
+Ensure that you have access to:
+The Verilog netlist of the RISC-V core.
+The testbench for executing the simulation.
+Setting Up the Simulation Environment
+Clone or download the Verilog netlist and testbench files.
 
-$   sudo apt get update
-$   sudo apt get install iverilog gtkwave
-To clone the repository and download the netlist files for simulation , enter the following commands in your terminal.
-$ git clone https://github.com/vinayrayapati/iiitb_rv32i
-$ cd iiitb_rv32i
-To simulate and run the verilog code , enter the following commands in your terminal.
-$ iverilog -o iiitb_rv32i iiitb_rv32i.v iiitb_rv32i_tb.v
-$ ./iiitb_rv32i
-To see the output waveform in gtkwave, enter the following commands in your terminal.
-$ gtkwave iiitb_rv32i.vcd
+Install the required tools (e.g., Icarus Verilog, GTKWave).
 
+Navigate to the project directory and compile the Verilog files using
 
+iverilog -o riscv_sim risc_v_netlist.v testbench.v
+
+Run the simulation:
+
+vvp riscv_sim
+
+Generate waveform files for analysis:
+
+gtkwave dump.vcd
+
+Running the Functional Simulation
+Load the netlist and testbench into the simulator.
+Execute the testbench to generate output signals.
+Verify key signal behaviors such as:
+Instruction execution
+Register updates
+Memory access
+Capturing and Analyzing Waveforms
+Use GTKWave to open the generated VCD file.
+Observe important signals like PC (Program Counter), register values, and memory accesses.
+Compare the expected vs. actual results to ensure functional correctness.
+Uploading Results to GitHub
+Save waveform snapshots as .png or .vcd files.
+Update the README with:
+Simulation logs
+Waveform analysis
