@@ -20,6 +20,7 @@ Debugging with SPIKE: Comparing -O1 and -Ofast Optimizations
 
 -Ofast: A high-speed optimization that prioritizes performance over strict standards
 add.c file
+
 ![Description](https://github.com/pavanrathod1/samsung-riskcv/blob/main/images/402558033-8989da87-e34d-4330-af71-683b478b96421.jpg)
 
 
