@@ -28,6 +28,13 @@ add.c file
 
 
 
+
+
+
+![Description](https://github.com/pavanrathod1/samsung-riskcv/blob/main/images/402639324-905f4204-0931-4323-8e43-253e8a263ad12.jpg)
+
+
+
 ## Task 3: Review the RISC-V software documentation to understand the R, I, S, B, U, and J instruction types.
 
 RISC-V Instruction Types for the Given Code
