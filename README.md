@@ -100,3 +100,37 @@ Save waveform snapshots as .png or .vcd files.
 Update the README with:
 Simulation logs
 Waveform analysis
+
+# task 5:Documentation and Repository Update 
+Overview: Object Detector Using Ultrasonic Sensor with CH32V003
+Project Summary:
+This project is designed to detect objects using an HC-SR04 ultrasonic sensor interfaced with a CH32V003 RISC-V microcontroller. When an object is detected within a certain range, an LED indicator lights up to provide a visual alert. The system operates using a 3.3V power supply and is built on a breadboard using jumper wires for easy prototyping.
+
+Project Description
+This project implements an object detection system using the HC-SR04 ultrasonic sensor and the CH32V003 RISC-V microcontroller. It measures the distance of objects and triggers an LED when an object is detected within a specified range. The system operates on a 3.3V power supply and is built using a breadboard for easy prototyping.
+
+Working Principle
+The ultrasonic sensor (HC-SR04) emits sound waves from its TRIG pin.
+The waves bounce back when they hit an object and are received by the ECHO pin.
+The CH32V003 microcontroller calculates the distance based on the time delay between transmission and reception.
+If the object is closer than 10 cm, the LED turns ON. Otherwise, it remains OFF.
+
+# pinout configuration
+![config](https://github.com/user-attachments/assets/a110e757-457b-4d09-8c1b-ad514b1be46c)
+
+# components required
+![Screenshot 2025-02-17 232536](https://github.com/user-attachments/assets/92298dde-df07-479f-802e-caf3bde6841b)
+
+# application
+Obstacle Detection for Robots
+Proximity Sensing in Security Systems
+Smart Parking Systems
+Automatic Door Systems
+
+
+# task6: Final Code Submission & Application Demo
+![project im](https://github.com/user-attachments/assets/6b680db3-261d-470b-b20d-7e359ecb74e9)
+
+
+
+
